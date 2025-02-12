@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 10px;
+    background-color: #c5d5d6ba;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #a71d2a;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-info {
+    background-color: #2cb6cbe9;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+/* Task List */
+.list-group-item {
+    display: flex;
+    background-color: #cbcccda7;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.list-group-item span {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.task-item::before {
+    content: "•";
+    margin-right: 10px;
+    color: black;
+}
+
+/* Header */
+.card-header {
+    border-radius: 10px 10px 0 0;
+    font-size: 1.5rem;
+}
+
+/* Signed in as */
+.text-muted {
+    font-size: 0.9rem;
+}
+
+.user-email {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .card {
+        margin: 10px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+}
